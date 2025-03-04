@@ -82,7 +82,7 @@ body {
   font-weight: 400;
   color: #fff;
   overflow: auto;
-  background-image: url("img/bk-sparkImg.jpg");
+  background-image: url("../img/bk-sparkImg.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
