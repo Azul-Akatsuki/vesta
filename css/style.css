@@ -409,7 +409,7 @@ video {
   background-color: rgba(0, 0, 0, 0);
 }
 .m-memberList ul li:nth-of-type(1) {
-  background-image: url("/img/algonaut.png");
+  background-image: url("/vesta/img/algonaut.png");
   background-size: cover;
   background-position-y: -50px;
 }
@@ -424,7 +424,7 @@ video {
   }
 }
 .m-memberList ul li:nth-of-type(2) {
-  background-image: url("/img/Neru.png");
+  background-image: url("/vesta/img/Neru.png");
   background-size: cover;
   background-position-y: -50px;
 }
@@ -439,7 +439,7 @@ video {
   }
 }
 .m-memberList ul li:nth-of-type(3) {
-  background-image: url("/img/noTitle.png");
+  background-image: url("/vesta/img/noTitle.png");
   background-size: cover;
   background-position-y: -50px;
 }
@@ -454,7 +454,7 @@ video {
   }
 }
 .m-memberList ul li:nth-of-type(4) {
-  background-image: url("/img/rqin.png");
+  background-image: url("/vesta/img/rqin.png");
   background-size: cover;
   background-position-y: -50px;
 }
@@ -469,7 +469,7 @@ video {
   }
 }
 .m-memberList ul li:nth-of-type(5) {
-  background-image: url("/img/izayoi.png");
+  background-image: url("/vesta/img/izayoi.png");
   background-size: cover;
   background-position-y: -50px;
 }
