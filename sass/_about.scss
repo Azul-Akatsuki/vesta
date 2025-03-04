@@ -1,0 +1,40 @@
+.section__wrap{
+    &--about{
+    display: flex;
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+    }
+    .section__logo{
+      width: 100%;
+      img{
+        width: 70%;
+        margin: 15% auto;
+      }
+    }
+    .section__txt{
+      width: 100%;
+      .section__txt__description{
+        margin-top: 5%;
+        p{
+          text-align: left;
+        }
+      }
+  
+      .section__txt__result{
+        margin-top: 5%;
+        dl{
+          text-align: left;
+          display: flex;
+          justify-content: space-around;
+          margin-bottom: 10px;
+          @media screen and (max-width: 768px) {
+            flex-direction: column;
+          }
+          &:first-of-type{
+            margin-top: 20px;
+          }
+        }
+      }
+    }
+  }
+  }

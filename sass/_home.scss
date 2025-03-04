@@ -1,0 +1,23 @@
+/* video */
+.video {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+video {
+    width: 100%;
+}
+
+.heroLogo{
+    width: 30%;
+    margin: 5% auto;
+    @media screen and (max-width:767px){
+        width: 40%;
+        margin: 20% auto;
+    }
+}
