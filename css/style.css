@@ -83,7 +83,7 @@ body {
   color: #fff;
   overflow: auto;
   background-image: url("/vesta/img/bk-sparkImg.jpg");
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
