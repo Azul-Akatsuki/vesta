@@ -82,8 +82,8 @@ body {
   font-weight: 400;
   color: #fff;
   overflow: auto;
-  background-image: url("/vesta/img/bk-sparkImg.jpg");
-  background-position: center;
+  background-image: url("../img/bk-sparkImg.jpg");
+  background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -173,9 +173,9 @@ section {
   margin: 0 10%;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1024px) {
   .video {
-    max-width: 960px;
+    display: none;
   }
 }
 .sp-none {
@@ -307,11 +307,19 @@ video {
 }
 
 .heroLogo {
-  width: 30%;
-  margin: 5% auto;
+  display: none;
 }
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+   .heroLogo {
+    display: block;
+    width: 40%;
+    margin: 10% auto;
+  }
+}
+
+@media screen and (max-width:767px) {
   .heroLogo {
+    display: block;
     width: 40%;
     margin: 20% auto;
   }
@@ -409,7 +417,7 @@ video {
   background-color: rgba(0, 0, 0, 0);
 }
 .m-memberList ul li:nth-of-type(1) {
-  background-image: url("/vesta/img/algonaut.png");
+  background-image: url("/img/algonaut.png");
   background-size: cover;
   background-position-y: -50px;
 }
@@ -424,7 +432,7 @@ video {
   }
 }
 .m-memberList ul li:nth-of-type(2) {
-  background-image: url("/vesta/img/Neru.png");
+  background-image: url("/img/Neru.png");
   background-size: cover;
   background-position-y: -50px;
 }
@@ -439,7 +447,7 @@ video {
   }
 }
 .m-memberList ul li:nth-of-type(3) {
-  background-image: url("/vesta/img/noTitle.png");
+  background-image: url("/img/noTitle.png");
   background-size: cover;
   background-position-y: -50px;
 }
@@ -454,7 +462,7 @@ video {
   }
 }
 .m-memberList ul li:nth-of-type(4) {
-  background-image: url("/vesta/img/rqin.png");
+  background-image: url("/img/rqin.png");
   background-size: cover;
   background-position-y: -50px;
 }
@@ -469,7 +477,7 @@ video {
   }
 }
 .m-memberList ul li:nth-of-type(5) {
-  background-image: url("/vesta/img/izayoi.png");
+  background-image: url("/img/izayoi.png");
   background-size: cover;
   background-position-y: -50px;
 }
